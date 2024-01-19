@@ -1,0 +1,122 @@
+body{
+    background-color: #f5f5f5;
+}
+.titulo{
+    margin-left: 125px; 
+    margin-right: 125px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: deepskyblue;
+    border-radius: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 30px;
+    background-color: aquamarine;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    display: inline;
+    margin: 15px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+#placa{
+    display: none;
+    animation-name: pop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#cpu{
+    display: none;
+    animation-name: pop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#grafica{
+    display: none;
+    animation-name: pop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#memoria{
+    display: none;
+    animation-name: pop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#almacenamiento{
+    display: none;
+    animation-name: pop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#almacenamiento2{
+    display: none;
+    animation-name: pop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes pop {
+    from {
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+p:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.fieldpag{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+.PB{
+    color: red;
+}
+.flecha{
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+button{
+    border-radius: 80px;
+    text-decoration: none;
+}
+p{
+    text-decoration: none;
+}
+article{
+    text-align: center;
+}
+.zoom{
+    transition: transform .4s;
+}
+.zoom:hover{
+    transform: scale(1.25)
+}
